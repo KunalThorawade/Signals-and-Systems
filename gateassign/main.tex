@@ -45,13 +45,13 @@
 \vspace{3cm}
 
 \title{
-%	\logo{
-Gate Assignment
+	%	\logo{
+	Gate Assignment
 
-\large{EE:1205 Signals and Systems}
+	\large{EE:1205 Signals and Systems}
 
-Indian Institute of Technology, Hyderabad
-%	}
+	Indian Institute of Technology, Hyderabad
+	%	}
 }
 \author{Kunal Thorawade
 
@@ -75,29 +75,28 @@ EE23BTECH11035
  (Round off the answer to one decimal place.)
  \hfill(GATE BM 32 2023)
  \begin{circuitikz}
-     % Voltage source
-         \draw (0,0) to[sV, v=$100\cos(\omega_{o} t)$] (0,2);
-	     
-	         % Resistor
-		     \draw (0,2) to[R, l=$1\text{ k}\Omega$] (3,2);
-		         
-			     % Capacitor
-			         \draw (3,2) to[C, l=$100\mu\text{F}$] (3,0);
-				     
-				         % Ground
-					     \draw (3,0) -- (0,0);
-					     \end{circuitikz}
+	     % Voltage source
+	     \draw (0,0) to[sV, v=$100\cos(\omega_{o} t)$] (0,2);
+	         
+		     % Resistor
+		         \draw (0,2) to[R, l=$1\text{ k}\Omega$] (3,2);
+			     
+			         % Capacitor
+				     \draw (3,2) to[C, l=$100\mu\text{F}$] (3,0);
+				         
+					     % Ground
+					         \draw (3,0) -- (0,0);
+ \end{circuitikz}
 
-					     \solution 
+ \solution 
 
-					     \input{tables/table1}
-					     \begin{align}
-					     V_R &= V_C \\
-					     \implies|Z_R| &= |Z_C|    \\
-					     \implies R &= \left|\frac{1}{j\omega_o C}\right| \\
-					     \implies \omega_o &= \frac{1}{RC} \\
-					     \implies \omega_o &= \frac{1}{(1\ \text{k}\Omega)(100\ \mu\text{F})} \\
-					     \therefore\omega_o &= 10.0
-					     \end{align}
-
-					     \end{document}
+ \input{tables/table1}
+ \begin{align}
+	 V_R &= V_C \\
+	 \implies \abs{Z_R} &= \abs{Z_C}    \\
+	 R &= \left|\frac{1}{j\omega_o C}\right| \\
+	 \omega_o &= \frac{1}{RC} \\
+	 \omega_o &= \frac{1}{\brak{1\ \text{k}\Omega}\brak{100\ \mu\text{F}}} \\
+	 \therefore\omega_o &= 10.0
+ \end{align} 
+ \end{document}
