@@ -18,7 +18,6 @@
 \usepackage{gvv}
 \usepackage{circuitikz}
 
-
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{problem}{Problem}
 \newtheorem{proposition}{Proposition}[section]
@@ -76,27 +75,48 @@ EE23BTECH11035
  \hfill(GATE BM 32 2023)
  \begin{circuitikz}
 	     % Voltage source
-	     \draw (0,0) to[sV, v=$100\cos(\omega_{o} t)$] (0,2);
+	     \draw (0,0) to[sV, v=$100\cos(\omega_{0} t)$] (0,2);
 	         
 		     % Resistor
 		         \draw (0,2) to[R, l=$1\text{ k}\Omega$] (3,2);
 			     
 			         % Capacitor
 				     \draw (3,2) to[C, l=$100\mu\text{F}$] (3,0);
-				         
-					     % Ground
-					         \draw (3,0) -- (0,0);
+				         % Ground
+					     \draw (3,0) -- (0,0);
  \end{circuitikz}
 
  \solution 
 
  \input{tables/table1}
  \begin{align}
-	 V_R &= V_C \\
-	 \implies \abs{Z_R} &= \abs{Z_C}    \\
-	 R &= \left|\frac{1}{j\omega_o C}\right| \\
-	 \omega_o &= \frac{1}{RC} \\
-	 \omega_o &= \frac{1}{\brak{1\ \text{k}\Omega}\brak{100\ \mu\text{F}}} \\
-	 \therefore\omega_o &= 10.0
- \end{align} 
+	 R &\stackrel{\mathcal{L}}{\longleftrightarrow} R \\
+	 C &\stackrel{\mathcal{L}}{\longleftrightarrow} \frac{1}{sC} \\
+ \end{align}
+ \begin{circuitikz}
+	 % Voltage source
+	 \draw (0,0) to[sV, v=$V_s(s)$] (0,2);
+	 % Resistor
+	 \draw (0,2) to[R, l=$R$, i=$I(s)$] (3,2);
+	 % Capacitor
+	 \draw (3,2) to[C, l=$\frac{1}{sC}$] (3,0);
+	 % Ground
+	 \draw (3,0) -- (0,0);
+ \end{circuitikz}
+
+ \begin{align}
+	 H\brak{s} &= \frac{I\brak{s}}{V\brak{s}} \\
+	 H\brak{s} &= \frac{1}{R+\frac{1}{sC}} \\
+	 H\brak{s} &= \frac{1}{10^3 + \frac{10^4}{s}} \\
+	 H\brak{s} &= \frac{10^{-3}s}{10 + s} 
+ \end{align}
+ Put $s = j\omega$,
+ \begin{align}
+	 H\brak{\omega} &= \frac{10^{-3}j\omega}{10 + j\omega} \\
+	 \abs{H\brak{\omega}} &= \frac{10^{-3}\omega}{\sqrt{100 + \omega^2}}
+ \end{align}
+ At resonant frequency $H\brak{\omega}$ will have maximum value, $H\brak{\omega}$ will be maximum at $\omega = 10$ \\
+ \begin{align}
+	     \therefore \omega_0 = 10.0  rad/s
+ \end{align}
  \end{document}
