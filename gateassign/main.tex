@@ -67,6 +67,7 @@ EE23BTECH11035
  
  \renewcommand{\thefigure}{\theenumi}
  \renewcommand{\thetable}{\arabic{table}}
+ \renewcommand{\thefigure}{\arabic{figure}}
  %\renewcommand{\theequation}{\theenumi}
 
  \textbf{Question}:
@@ -91,6 +92,10 @@ EE23BTECH11035
  \begin{align}
 	 R &\stackrel{\mathcal{F}}{\longleftrightarrow} R \\
 	 C &\stackrel{\mathcal{F}}{\longleftrightarrow} \frac{1}{j\omega_0 C} \\
+	 \abs{V_R\brak{\omega}} &= \abs{V_C\brak{\omega}} \\
+	 \implies \abs{Z_R} &= \abs{Z_C} \\
+	 10^3 &= \frac{10^4}{\omega_0} \\
+	 \therefore \omega_0 &= 10.0
  \end{align}
  \begin{circuitikz}
 	 % Voltage source
@@ -102,10 +107,10 @@ EE23BTECH11035
 	 % Ground
 	 \draw (3,0) -- (0,0);
  \end{circuitikz}
- \begin{align}
-	     \abs{V_R\brak{\omega}} &= \abs{V_C\brak{\omega}} \\
-	         \implies \abs{Z_R} &= \abs{Z_C} \\
-		     10^3 &= \frac{10^4}{\omega_0} \\
-		         \therefore \omega_0 &= 10.0
- \end{align}
+ \begin{figure}
+	     \centering
+	         \includegraphics[width = 8cm]{figs/fig1.jpg}
+		     \caption{Plot of $\abs{Z} = 10^3(\frac{\sqrt{100 + \omega_0^2}}{\omega_0}) $ }
+		         \label{fig:enter-label-}
+ \end{figure}
  \end{document}

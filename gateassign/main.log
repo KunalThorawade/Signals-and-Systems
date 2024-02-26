@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.1.3)  26 FEB 2024 14:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.1.3)  26 FEB 2024 16:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1255,49 +1255,56 @@ Package hyperref Info: Link coloring OFF on input line 38.
 \openout4 = `main.out'.
 
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 7
-3.
+4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 7
-3.
+4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 7
-3.
+4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 7
-3.
+4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 7
-3.
+4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-(./tables/table1.tex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+(./tables/table1.tex)
+<figs/fig1.jpg, id=7, 481.8pt x 361.35pt>
+File: figs/fig1.jpg Graphic file (type jpg)
+<use figs/fig1.jpg>
+Package pdftex.def Info: figs/fig1.jpg  used on input line 112.
+(pdftex.def)             Requested size: 227.62204pt x 170.71672pt.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
+ <./figs/fig1.jpg>] (./main.aux)
 
-]
-(./main.aux)
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 45919 strings out of 476091
- 1075804 string characters out of 5794082
- 1885330 words of memory out of 5000000
- 65593 multiletter control sequences out of 15000+600000
+ 45929 strings out of 476091
+ 1075944 string characters out of 5794082
+ 1887330 words of memory out of 5000000
+ 65600 multiletter control sequences out of 15000+600000
  584744 words of font info for 179 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  101i,13n,96p,1172b,846s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1309,10 +1316,10 @@ fonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (1 page, 51895 bytes).
+Output written on main.pdf (1 page, 86723 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
+ 68 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream
  10 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
