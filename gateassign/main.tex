@@ -87,36 +87,25 @@ EE23BTECH11035
  \end{circuitikz}
 
  \solution 
-
  \input{tables/table1}
  \begin{align}
-	 R &\stackrel{\mathcal{L}}{\longleftrightarrow} R \\
-	 C &\stackrel{\mathcal{L}}{\longleftrightarrow} \frac{1}{sC} \\
+	 R &\stackrel{\mathcal{F}}{\longleftrightarrow} R \\
+	 C &\stackrel{\mathcal{F}}{\longleftrightarrow} \frac{1}{j\omega_0 C} \\
  \end{align}
  \begin{circuitikz}
 	 % Voltage source
-	 \draw (0,0) to[sV, v=$V_s(s)$] (0,2);
+	 \draw (0,0) to[sV, v=$V(\omega)$] (0,2);
 	 % Resistor
-	 \draw (0,2) to[R, l=$R$, i=$I(s)$] (3,2);
+	 \draw (0,2) to[R, l=$R$, i=$I(\omega)$] (3,2);
 	 % Capacitor
-	 \draw (3,2) to[C, l=$\frac{1}{sC}$] (3,0);
+	 \draw (3,2) to[C, l=$\frac{1}{j\omega_0 C}$] (3,0);
 	 % Ground
 	 \draw (3,0) -- (0,0);
  \end{circuitikz}
-
  \begin{align}
-	 H\brak{s} &= \frac{I\brak{s}}{V\brak{s}} \\
-	 H\brak{s} &= \frac{1}{R+\frac{1}{sC}} \\
-	 H\brak{s} &= \frac{1}{10^3 + \frac{10^4}{s}} \\
-	 H\brak{s} &= \frac{10^{-3}s}{10 + s} 
- \end{align}
- Put $s = j\omega$,
- \begin{align}
-	 H\brak{\omega} &= \frac{10^{-3}j\omega}{10 + j\omega} \\
-	 \abs{H\brak{\omega}} &= \frac{10^{-3}\omega}{\sqrt{100 + \omega^2}}
- \end{align}
- At resonant frequency $H\brak{\omega}$ will have maximum value, $H\brak{\omega}$ will be maximum at $\omega = 10$ \\
- \begin{align}
-	     \therefore \omega_0 = 10.0  rad/s
+	     \abs{V_R\brak{\omega}} &= \abs{V_C\brak{\omega}} \\
+	         \implies \abs{Z_R} &= \abs{Z_C} \\
+		     10^3 &= \frac{10^4}{\omega_0} \\
+		         \therefore \omega_0 &= 10.0
  \end{align}
  \end{document}
