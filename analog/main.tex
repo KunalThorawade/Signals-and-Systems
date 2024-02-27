@@ -1,0 +1,94 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} % loads  TikZ and tkz-base
+\usepackage{listings}
+\usepackage{gvv}
+
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+\graphicspath{./figs/}
+
+%\bibliographystyle{ieeetr}
+\begin{document}
+%
+
+\bibliographystyle{IEEEtran}
+
+
+\vspace{3cm}
+
+\title{
+%	\logo{
+NCERT-Analog: 11.14.18
+
+\large{EE:1205 Signals and Systems}
+
+Indian Institute of Technology, Hyderabad
+%	}
+}
+\author{Kunal Thorawade
+
+EE23BTECH11035
+}	
+\maketitle
+
+
+\newpage
+
+%\tableofcontents
+
+\bigskip
+ 
+ \renewcommand{\thefigure}{\theenumi}
+ \renewcommand{\thetable}{\arabic{table}}
+ %\renewcommand{\theequation}{\theenumi}
+
+ \section{Question:}
+ A cylindrical piece of cork of density of base area $A$ and height h floats in a liquid of density $\rho_1$, The cork is depressed slightly and then released. Show that the cork oscillates up and down simple harmonically with a period $T = 2\pi\sqrt{\dfrac{h\rho}{\rho_{1}g}}$
+
+ \textbf{Solution:} 
+ \input{tables/table1}
+ \begin{figure}[!ht]
+     \input{figs/tikz}
+     \end{figure} \\
+     When we slightly displace cylindrical piece of cork by a depth $x$,
+     \begin{align}
+         ```````` \\
+	     \implies a &= -\frac{\rho_1Ag}{m}x \label{eqn1} \\
+	         a &= -\omega^2x \label{eqn2}
+		 \end{align}
+		 Comparing \ref{eqn1} and \ref{eqn2},
+		 \begin{align}
+		     \omega^2 &= \frac{\rho_1Ag}{m} = \frac{\rho_1Ag}{\rho Ah} \\
+		         \implies\omega &= \sqrt{\frac{\rho_1g}{\rho h}} \\
+			     T &= \frac{2\pi}{\omega} \\
+			         \therefore T &= 2\pi\sqrt{\frac{h\rho}{\rho_1 g}}
+				 \end{align}
+				 Hence Proved.
+				 \end{document}
