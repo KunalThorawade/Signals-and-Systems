@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.1.3)  27 FEB 2024 18:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.1.3)  27 FEB 2024 18:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1069,13 +1069,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 3
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-No file main.aux.
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 38.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 38.
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 38.
@@ -1186,6 +1186,8 @@ LaTeX Info: Redefining \ohm on input line 38.
 Package gensymb Info: Using \textohm for \ohm on input line 38.
 Package gensymb Info: Using \textmu for \micro on input line 38.
 Package hyperref Info: Link coloring OFF on input line 38.
+
+(./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -1219,37 +1221,19 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 7
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-(./tables/table1.tex) (./figs/tikz.tex)
-
-LaTeX Warning: Reference `eqn1' on page 1 undefined on input line 86.
-
-
-LaTeX Warning: Reference `eqn2' on page 1 undefined on input line 86.
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+(./tables/table1.tex) (./figs/tikz.tex) [1{/var/lib/texmf/fonts/map/pdftex/updm
+ap/pdftex.map}
 
 
 ] (./main.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  0A2D9E115B68C8C23D64B5DF0227066C;88.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 0A2D9E115B68C8C23D64B5DF0227066C;88.
  ) 
 Here is how much of TeX's memory you used:
- 30036 strings out of 476091
- 591919 string characters out of 5794082
+ 30044 strings out of 476091
+ 591986 string characters out of 5794082
  1875330 words of memory out of 5000000
- 49768 multiletter control sequences out of 15000+600000
+ 49770 multiletter control sequences out of 15000+600000
  584720 words of font info for 180 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  101i,12n,96p,1172b,748s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1262,10 +1246,10 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on main.pdf (1 page, 57403 bytes).
+Output written on main.pdf (1 page, 56435 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 79 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  11 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
