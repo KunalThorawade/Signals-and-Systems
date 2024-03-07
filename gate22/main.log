@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.1.3)  7 MAR 2024 06:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.1.3)  7 MAR 2024 11:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -22,6 +22,7 @@ LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
+** ATTENTION: Single column mode is not typically used with IEEE publications.
 -- Using 8.5in x 11in (letter) paper.
 -- Using PDF output.
 \@IEEEnormalsizeunitybaselineskip=\dimen143
@@ -1255,55 +1256,43 @@ Package hyperref Info: Link coloring OFF on input line 38.
 \openout4 = `main.out'.
 
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 7
-5.
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 7
-5.
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 7
-5.
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 7
-5.
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 7
-5.
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-(./tables/table1.tex
-Overfull \hbox (36.78223pt too wide) in paragraph at lines 3--21
- [][] 
- []
-
-)
-Overfull \hbox (12.27786pt too wide) detected at line 86
-[]
- []
-
+(./tables/table1.tex)
 <figs/fig1.jpg, id=7, 1003.75pt x 565.11125pt>
 File: figs/fig1.jpg Graphic file (type jpg)
 <use figs/fig1.jpg>
-Package pdftex.def Info: figs/fig1.jpg  used on input line 89.
-(pdftex.def)             Requested size: 252.0pt x 141.87244pt.
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
- <./figs/fig1.jpg>]
-(./main.aux)
+Package pdftex.def Info: figs/fig1.jpg  used on input line 87.
+(pdftex.def)             Requested size: 516.0pt x 290.52248pt.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+[2 <./figs/fig1.jpg>] (./main.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -1311,13 +1300,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 45357 strings out of 476091
- 1059622 string characters out of 5794082
- 1872330 words of memory out of 5000000
+ 45358 strings out of 476091
+ 1059628 string characters out of 5794082
+ 1870330 words of memory out of 5000000
  65030 multiletter control sequences out of 15000+600000
  583428 words of font info for 177 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,12n,96p,1172b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,12n,96p,1172b,433s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
@@ -1327,10 +1316,10 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on main.pdf (1 page, 89038 bytes).
+Output written on main.pdf (2 pages, 89276 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
+ 77 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
